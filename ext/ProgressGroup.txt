@@ -1,0 +1,2 @@
+PING百度: ping www.baidu.com
+PING主站: ping www.dreamcenter.top

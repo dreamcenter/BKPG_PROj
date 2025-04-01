@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PLUGIN_BKPG_Company:jar">
+    <output-path>$PROJECT_DIR$/ext</output-path>
+    <root id="archive" name="PLUGIN_BKPG_Company.jar">
+      <element id="module-output" name="PLUGIN_BKPG_Company" />
+    </root>
+  </artifact>
+</component>

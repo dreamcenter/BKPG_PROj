@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BKPG/BKPG.iml" filepath="$PROJECT_DIR$/BKPG/BKPG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BKPG_DEMO/BKPG_DEMO.iml" filepath="$PROJECT_DIR$/BKPG_DEMO/BKPG_DEMO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BKPG_PROTOCAL/BKPG_PROTOCAL.iml" filepath="$PROJECT_DIR$/BKPG_PROTOCAL/BKPG_PROTOCAL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BKPG_PROj.iml" filepath="$PROJECT_DIR$/BKPG_PROj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PLUGIN_BKPG_Company/PLUGIN_BKPG_Company.iml" filepath="$PROJECT_DIR$/PLUGIN_BKPG_Company/PLUGIN_BKPG_Company.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PLUGIN_BKPG_GROUP_PROCESS/PLUGIN_BKPG_GROUP_PROCESS.iml" filepath="$PROJECT_DIR$/PLUGIN_BKPG_GROUP_PROCESS/PLUGIN_BKPG_GROUP_PROCESS.iml" />
+    </modules>
+  </component>
+</project>

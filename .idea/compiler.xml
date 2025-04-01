@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BKPG_DEMO" />
+        <module name="BKPG_PROTOCAL" />
+        <module name="PLUGIN_BKPG_GROUP_PROCESS" />
+        <module name="PLUGIN_BKPG_Company" />
+        <module name="BKPG" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name=".mvn (1)" target="1.5" />
+      <module name=".mvn (2)" target="1.5" />
+      <module name="BKPG" target="8" />
+      <module name="BKPG_DEMO" target="8" />
+      <module name="BKPG_PROj" target="8" />
+      <module name="BKPG_PROTOCAL" target="8" />
+      <module name="PLUGIN_BKPG_Company" target="1.8" />
+      <module name="PLUGIN_BKPG_GROUP_PROCESS" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+
+# 程序生成
+BKPG/target
+BKPG_DEMO/target
+BKPG_PROTOCAL/target
+PLUGIN_BKPG_GROUP_PROCESS/target
+
+ext/*.jar
+
+
+
+# 个人项目
+PLUGIN_BKPG_Company

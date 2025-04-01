@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: top.dreamcenter.bkpg:BKPG_PROTOCAL:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../basic/Maven/maven_repository/top/dreamcenter/bkpg/BKPG_PROTOCAL/1.0-SNAPSHOT/BKPG_PROTOCAL-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/BKPG_PROTOCAL/BKPG_PROTOCAL-1.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../basic/Maven/maven_repository/top/dreamcenter/bkpg/BKPG_PROTOCAL/1.0-SNAPSHOT/BKPG_PROTOCAL-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/BKPG_PROTOCAL/BKPG_PROTOCAL-1.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../basic/Maven/maven_repository/top/dreamcenter/bkpg/BKPG_PROTOCAL/1.0-SNAPSHOT/BKPG_PROTOCAL-1.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

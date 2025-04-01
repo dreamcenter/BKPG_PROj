@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/BKPG/pom.xml" />
+        <option value="$PROJECT_DIR$/BKPG_DEMO/pom.xml" />
+        <option value="$PROJECT_DIR$/BKPG_PROTOCAL/pom.xml" />
+        <option value="$PROJECT_DIR$/BKPG_SELF/pom.xml" />
+        <option value="$PROJECT_DIR$/BKPG_GROUP_PROCESS_TEMPLATE/BKPG_GROUP_PROCESS_TEMPLATE/pom.xml" />
+        <option value="$PROJECT_DIR$/BKPG_GROUP_PROCESS_TEMPLATE/pom.xml" />
+        <option value="$PROJECT_DIR$/PLUGIN_BKPG_Company/pom.xml" />
+        <option value="$PROJECT_DIR$/PLUGIN_BKPG_GROUP_PROCESS/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
