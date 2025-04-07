@@ -7,6 +7,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
@@ -29,6 +30,16 @@ public abstract class ProcessAppTemplate implements MiniApp, ActionListener {
      * @return CMD命令
      */
     public abstract String getCmdStr();
+
+    /**
+     * 路径位置
+     *
+     * 默认null
+     * @return 执行命令所在路径
+     */
+    public String getRunPath() {
+        return null;
+    }
 
     @Override
     public JPanel getPanel() {
@@ -96,7 +107,17 @@ public abstract class ProcessAppTemplate implements MiniApp, ActionListener {
                 return;
             }
             try {
-                process = Runtime.getRuntime().exec(getCmdStr());
+                File file = null;
+
+                if (getRunPath() != null && !getRunPath().equals("")) {
+                    file = new File(getRunPath());
+                    if (!file.exists()) {
+                        failWrite("未找到启动路径:" + getRunPath());
+                        return;
+                    }
+                }
+
+                process = Runtime.getRuntime().exec(getCmdStr(), null, file);
                 successWrite("启动成功!");
                 heartbeatCheck();
                 String tmp;

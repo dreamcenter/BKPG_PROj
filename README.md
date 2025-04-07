@@ -50,6 +50,7 @@ MiniAppGroup
 ProcessAppTemplate: MiniApp
    - String getName();   // 获取应用名称
    - String getCmdStr(); // 需要执行的命令
+   - String getRunPath(); // 默认实现返回null，表示指令执行目录环境
    - 其余基类函数已默认实现
 
 
@@ -87,13 +88,25 @@ protect() 是保护函数，如果返回true，则表示在BKPG进行RELOAD时�
 用于执行命令行指令，需要实现两个接口，一个是getName，作用同上，另外一个是该抽象类
 独有的，getCmdStr，需要设置命令行的完整执行指令。当点击面板的执行按钮时，
 会启动一个线程来执行该命令，并且每5s会检测一次命令心跳，如果心跳失去连接，
-则会释放资源。可以作为一些应用或者服务的启动端。
+则会释放资源。
+如果说有的指令需要在特定目录下执行，可以覆盖getRunPath，来指定运行环境。
+可以作为一些应用或者服务的启动端。
 
 
 为了更加高效的添加命令（常用），
 官方内置了一个命令AppGroup: **PLUGIN_BKPG_GROUP_PROCESS** 。
-通过配置ext/ProgressGroup.txt来添加指令应用，
-指令名称和指令用英文冒号和一个空格隔开【: 】，会自动创建多组ProcessAppTemplate。
+通过配置ext/ProgressGroup.yml来添加指令应用，
+会自动创建多组ProcessAppTemplate。格式参考：
+```yml
+processBeanList:
+  - name: PING百度
+    cmd: ping www.baidu.com
+  - name: PING主站
+    cmd: ping www.dreamcenter.top
+  - name: nginx
+    cmd: D:\basic\nginx-1.24.0\nginx
+    path: D:\basic\nginx-1.24.0
+```
 
 
 
