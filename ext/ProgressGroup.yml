@@ -1,0 +1,8 @@
+processBeanList:
+  - name: PING百度
+    cmd: ping www.baidu.com
+  - name: PING主站
+    cmd: ping www.dreamcenter.top
+  - name: nginx
+    cmd: D:\basic\nginx-1.24.0\nginx
+    path: D:\basic\nginx-1.24.0
