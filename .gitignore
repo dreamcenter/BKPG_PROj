@@ -10,7 +10,7 @@ PLUGIN_BKPG_GROUP_PROCESS/target
 ext/*.jar
 *.iml
 
-
+out
 
 # 个人项目
 PLUGIN_BKPG_Company

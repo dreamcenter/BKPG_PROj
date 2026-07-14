@@ -1,5 +1,6 @@
 package top.dreamcenter.bkpg.util;
 
+import top.dreamcenter.bkpg.protocal.IgnoreRegister;
 import top.dreamcenter.bkpg.protocal.MiniApp;
 import top.dreamcenter.bkpg.protocal.MiniAppGroup;
 
@@ -59,7 +60,7 @@ public class MiniAppRegister {
                             Class<?> clazz = loader.loadClass(classRoute);
 
                             // 校验是否符合协议
-                            if (miniAppClass.isAssignableFrom(clazz)) {             // 单应用
+                            if (miniAppClass.isAssignableFrom(clazz) && !clazz.isAnnotationPresent(IgnoreRegister.class)) {             // 单应用
                                 // 注册进容器
                                 Object obj = clazz.getConstructor().newInstance();
                                 miniAppContainer.put(classRoute, (MiniApp) obj);

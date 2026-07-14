@@ -56,6 +56,7 @@ ProcessAppTemplate: MiniApp
    - void write2There (String row); // 日志打印函数，默认实现是输出到logs文件夹下
    - 其余基类函数已默认实现
 
+@IgnoreRegister 添加了该注解的类不会被加载
 
 ### 详细说明
 
